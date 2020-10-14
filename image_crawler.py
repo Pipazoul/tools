@@ -5,11 +5,16 @@ import urllib
 i = 10020
 max = 25000
 
-while i < max :
 
+
+
+while i < max :
 	url = 'websiteUrl'+str(i)+'.f.jpg'
 	urllib.urlretrieve(url, 'outputFolder/'+str(i) + ".jpg")
 	print(url)
 	i = i+1
-	
+	f = open("current.txt", "w")
+	f.write(i)
+	f.close()
+		
 
