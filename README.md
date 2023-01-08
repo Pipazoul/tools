@@ -2,6 +2,9 @@
 Set of helpfull bash and python scripts
 
 
+## vid-to-gif.py
+Take random moments in video and generate short gifs
+
 ## count_words.py
 Generates a wordcloud based on text file
 
